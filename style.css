@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(image/bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+  font-size: clamp(15px, 12px + 12px, 5px, 4.5px + 3.5px, 1px + 0.2px,  0.1px );
+}
+.container{
+  width: 400px;
+  max-width: 100%;
+  padding: 40px;
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(25px);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+.logo{
+  margin-bottom: 25px;
+  font-size: 35px;
+  color: #000;
+  font-weight: bold;
+}
+.form_itams{
+  background: transparent;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form_info{
+  background: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.form_info::placeholder{
+  color: #ffffffb4;
+}
+.form_info i{
+  color: #000000b4;
+}
+.form_forgot {
+  text-align: start;
+  margin-bottom: 25px;
+}
+.form_forgot a{
+  text-decoration: none;
+  color: #ffffffad;
+  transition: all 0.2s ease-in-out;
+}
+.form_forgot a:hover{
+  color: red;
+  text-decoration: underline;
+}
+.form_button{
+  margin-bottom: 15px;
+}
+.log_btn{
+  background: #000;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.log_btn:hover{
+  background: #fff;
+  color: #000;
+  border: 1px solid #000000;
+}
+.form_link{
+  color: #ffffffb4;
+}
+.re_link{
+  margin-left: 5px;
+  color: #ffffffb4;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.re_link:hover{
+text-decoration: underline;
+color: red;
+}
